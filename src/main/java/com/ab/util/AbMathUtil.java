@@ -147,6 +147,25 @@ public class AbMathUtil{
 
 	
 	/**
+	 *一维数组之间的拼接
+	 *
+	 *
+	 * @param a the Array of LastArray
+	 * @param b the Array of EndArray
+	 * @return the mergeArray
+	 */
+	 public static byte[] merge1DArray(byte a[],byte b[]){
+		 byte[] result=byte [a.length+b.length];
+		 for (int i=0;i<a.length;i++){
+			 result[i]=a[i];
+		 }
+		 for (int i=0;i<b.length;i++){
+			 result[a.length+i]=b[i];
+		 }
+		 return result;
+	 }
+	
+	/**
 	 *  
 	 * 二维数组转为一维数组 
 	 *  

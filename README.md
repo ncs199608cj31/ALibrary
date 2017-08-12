@@ -132,7 +132,7 @@
 * 字节数组转换成16进制串 `byte2HexStr`
 * 二进制转为十六进制 `binaryToHex`
 * 一维数组转为二维数组 `arrayToMatrix`
-* 一维数组之间的拼接 'merge1DArray'
+* 一维数组之间的拼接 `merge1DArray`
 * 二维数组转为一维数组 `matrixToArray`
 * int数组转换为double数组 `intToDoubleArray`
 * int二维数组转换为double二维数组. `intToDoubleMatrix`
